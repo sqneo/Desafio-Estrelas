@@ -1,0 +1,19 @@
+Primeiramente obrigado pelas aulas, aprendi bastante com elas!
+bom, primeiro fiz todo o rascunho do projeto, como a pagina iria ficar e qual as cores iria usar,
+optei por um verde por causa da logo do desenho e acho que eles ultilizam bastante essa cor.
+
+HTML == fiz todo o "esqueleto" da pagina o html, criei 4 DIVs com 2 ID em cada, uma para a IMAGEM do personagem e outra para o NOME
+criei também uma "class" para estilizar no CSS. Fiz também para os botões que iriam aparecer na pagina.
+essa parte foi tranquila apesar do html ser "feio" gostei bastante aprender
+sobre ele.
+
+CSS == Escolhi todas as fontes no Google Fonts e importei, coloquei um background de cor escura para
+ficar mais visivel os personagens, ajustei todo meu Body, essa parte de posicionamento foi um pouco dificil
+pois sempre que ajustava uma coisa a outra saia do lugar, então pesquisei por Layout CSS e dei uma estudada.
+Usei um background menor como referencia de onde iria ficar cada foto assim chamando todas as Class do HTML consegui
+estilizar.
+
+JavaScript == Foi dificil de entender, a parte que deu mais trabalho, procurei bastante sobre
+consumo de API, usei o projeto do jogo como base. Criei uma função para cada bloco de personagem adicionando 
+o métado e chamando a const que criei logo no inicio, por fim fiz um botão para da uma atualizada na pagina e chamei ele
+de Refresh. No scrit da pagina de mais detalhes foi parecido pois criei a const e o que eu iria pegar da API.
