@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Baloo Tammudu 2, sans-serif;
+}
+
+/* BackGround */
+
+.bg {
+  background: #1a1a1a;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Cards dos Personagens */
+
+.box-cards {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+  position: absolute;
+  
+}
+
+.box-person {
+  width: 600px;
+  height: 300px;
+  background: #292929;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+  margin: 230px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 190px;
+  
+}
+
+.foto-person {
+  width: 220px;
+  height: 350px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  position: absolute;
+  top: 240px;
+  left: 380px;
+  object-fit: cover;
+}
+
+/* Textos da Pagina */
+
+
+
+.text-tl {
+  color: rgb(255, 255, 255);
+  font-size: 55px;
+  font-family: Roboto, sans-serif;
+  margin-top: -490px;
+  position: absolute;
+
+}
+
+.text-nameif {
+  flex-direction: row;
+  display: flex;
+  letter-spacing: 6px;
+
+}
+
+.text-status {
+  font-size: 15px;
+  font-family: roboto, sans-serif;
+  line-height: 70px;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+  color:white;
+  
+}
+
+.name-statusif {
+  color: #48e4f8;
+}
+
+.text-real-status {
+  font-size: 25px;
+  font-family: roboto, sans-serif;
+  margin: 10px;
+  line-height: 15px;
+  font-weight: bold;
+}
+
+.foto-cd {
+  width: 200px;
+  height: 200px;
+}
+
+/* blur da imagem */
+.teste {
+  filter: blur(2px);
+}
+
+/* Animação */
+
+.box-cards {
+    animation-name: move;
+    animation-duration: 2s;
+}
+    @keyframes move {
+        from {
+            opacity: 0;
+            transform: translateX(-35%);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
